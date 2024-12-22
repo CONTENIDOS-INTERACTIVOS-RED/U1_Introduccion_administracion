@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '1',
-    tituloUnidad: '',
+    tituloUnidad: 'Fundamentos de la administración',
   },
   menuPrincipal: {
     menu: [
