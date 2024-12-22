@@ -22,8 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El ecosistema de Ciencia, Tecnología e Innovación (CTeI) en Colombia, impulsa el desarrollo mediante políticas como el CONPES 4069, Leyes 2162 y 1286, y el Sistema Nacional de CTeI. Destacan instrumentos como SIGP, ScienTI, Publindex y RedCol, que fortalecen la gestión, visibilidad y calidad de la investigación. Se promueve la educación STEM, la equidad de género, la descentralización y la participación social en ciencia. Aunque persisten desafíos como la fuga de cerebros y la baja inversión, el país tiene oportunidades en biodiversidad, energías renovables y emprendimiento, para consolidar un ecosistema innovador.
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold La ciencia transforma desafíos en oportunidades y construye un futuro brillante.
+              p.descripcion.mb-4 Desde los inicios de la humanidad, la administración ha sido clave para organizar y optimizar los recursos en cualquier tipo de entidad social. En esta primera unidad, se exploran los fundamentos de la administración, sus características y su relevancia en el entorno empresarial. Se analizarán las principales definiciones, principios y enfoques históricos que sustentan esta disciplina, comprendiendo cómo sus procesos permiten alcanzar los objetivos organizacionales de manera eficiente.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para desarrollar habilidades esenciales que impulsarán tu gestión en entornos dinámicos y competitivos!
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
@@ -100,7 +100,7 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: #15DA7E !important
+        background-color: #88BBA9 !important
         padding: 12px 42px 12px 32px
         width: 100%
         color: #000 !important

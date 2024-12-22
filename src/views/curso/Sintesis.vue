@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p(data-aos="fade-up").mb-5 Esta unidad analiza el sistema de ciencia, tecnología e innovación en Colombia, describiendo el marco institucional, la educación y formación en CTeI, así como las iniciativas de investigación y desarrollo que fomentan la innovación en sectores estratégicos. También revisa el ecosistema de emprendimiento que promueve la democratización del conocimiento, retos y oportunidades para el país.
+    p(data-aos="fade-up").mb-5 La Unidad 1: Fundamentos de la administración, establece los principios teóricos esenciales para comprender la gestión organizacional y su relevancia en el entorno empresarial. Esta unidad sienta las bases para el estudio de la administración, proporcionando una perspectiva clara sobre sus conceptos, características y evolución histórica. Este enfoque integral asegura que los estudiantes adquieran una comprensión sólida de los fundamentos de la administración, lo que les permitirá aplicarlos con éxito, en diversos contextos organizacionales y dinámicos.
       .row.justify-content-center
         .col-lg-12.mb-5
           figure.bg-color-sintesis.p-5.brounded
