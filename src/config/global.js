@@ -15,26 +15,25 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Ciencia, tecnología e innovación, en Colombia',
+        titulo: 'Concepto de administración',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Marco legal y políticas públicas de CTeI la investigación científica',
+            titulo: 'Características de la administración',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Educación y formación en CTeI',
+            titulo: 'Evolución histórica de la administración',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Retos y oportunidades de CTeI en Colombia',
+            titulo: '',
             hash: 't_1_3',
           },
         ],
@@ -49,19 +48,19 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: ' Sistemas de información en CTeI',
+            titulo: '',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Modelos para la divulgación científica y tecnológica',
+            titulo: '',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Red Colombiana de Información Científica (RedCol)',
+            titulo: '',
             hash: 't_2_3',
           },
         ],
