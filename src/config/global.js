@@ -73,6 +73,13 @@ export default {
         ],
       },
       {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Importancia de la administración en las organizaciones',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
