@@ -132,13 +132,191 @@
           .col-lg
             p.mb-0 Teniendo en cuenta lo anterior, se puede concluir que la ausencia de una administración adecuada, lleva a la desorganización, la falta de eficiencia y la pérdida de oportunidades estratégicas, lo que puede resultar en un declive general del rendimiento y sostenibilidad de la organización, en el largo plazo.
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  data: () => ({
+    cuestionario: {
+      tema: 'Inclusión y Diversidad',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste sobre inclusión y diversidad respondiendo las siguientes preguntas.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'En una escuela rural, se detectó que un estudiante con discapacidad auditiva no logra acceder a las lecciones debido a la falta de intérpretes. ¿Qué principio de inclusión se debe aplicar para resolver esta situación?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Equidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Accesibilidad',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Autonomía',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Justicia',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La accesibilidad es fundamental para garantizar que todos los estudiantes puedan participar efectivamente en el proceso educativo.',
+          mensaje_incorrecto:
+            'No es correcto. Recuerda que la accesibilidad es el principio que garantiza el acceso a la educación para todos.',
+        },
+        {
+          id: 2,
+          texto:
+            'Una empresa adapta los espacios y horarios laborales para permitir que una empleada en silla de ruedas se integre sin dificultades. ¿Qué tipo de inclusión se está aplicando en este caso?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Inclusión laboral',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Inclusión social',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Inclusión cultural',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Inclusión escolar',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La inclusión laboral implica adaptar el entorno de trabajo para garantizar la participación plena de todos los empleados.',
+          mensaje_incorrecto:
+            'No es correcto. La adaptación del espacio de trabajo corresponde a la inclusión laboral.',
+        },
+        {
+          id: 3,
+          texto:
+            'En un aula diversa, se incluye un programa de aprendizaje bilingüe para estudiantes indígenas que están aprendiendo español. ¿A qué tipo de diversidad responde este caso?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diversidad cultural',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Diversidad de género',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diversidad étnica',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diversidad lingüística',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Este caso refleja el respeto y la adaptación a la diversidad cultural en el entorno educativo.',
+          mensaje_incorrecto:
+            'No es correcto. El programa bilingüe responde principalmente a la diversidad cultural de los estudiantes.',
+        },
+        {
+          id: 4,
+          texto:
+            'En una institución educativa, un niño diagnosticado con hiperactividad tiene dificultades para concentrarse durante las clases tradicionales. El docente decide implementar actividades interactivas y pausas activas. ¿Qué principio de la inclusión está aplicando el docente?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Autonomía',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Participación',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Equidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Universalización',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El docente está promoviendo la participación activa del estudiante mediante estrategias adaptadas.',
+          mensaje_incorrecto:
+            'No es correcto. Las actividades interactivas buscan fomentar la participación del estudiante.',
+        },
+        {
+          id: 5,
+          texto:
+            'En una empresa, el departamento de recursos humanos diseña procesos de selección que consideran a personas con discapacidad y ajusta entrevistas según sus necesidades. ¿Qué tipo de inclusión refleja este escenario?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Inclusión laboral',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Inclusión escolar',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Inclusión social',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Inclusión comunitaria',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La adaptación de los procesos de selección es un ejemplo claro de inclusión laboral.',
+          mensaje_incorrecto:
+            'No es correcto. Las adaptaciones en procesos de selección corresponden a la inclusión laboral.',
+        },
+      ],
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Has demostrado un excelente entendimiento de los principios de inclusión y diversidad.',
+      mensaje_final_reprobado:
+        'Te invitamos a revisar nuevamente el material sobre inclusión y diversidad para reforzar tus conocimientos.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
