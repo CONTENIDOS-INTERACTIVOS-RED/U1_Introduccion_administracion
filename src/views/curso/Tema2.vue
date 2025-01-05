@@ -212,7 +212,7 @@
           .col-lg-5.col-7.d-none.d-lg-block: img(src='@/assets/curso/t2/23.png', alt='')
           .col-lg-7.mb-lg-0.mb-3
             h4 Frederick Irving Herzberg
-            p.mb-0 Frederick Irving Herzberg, en su Teor��a Bifactorial, diferencia entre necesidades higiénicas, vinculadas al entorno laboral, y necesidades motivacionales, relacionadas con la naturaleza misma del trabajo. Según este modelo, la verdadera satisfacción laboral se logra al cumplir con estas últimas, aunque sigue siendo un desafío para las empresas, fomentar una motivación intrínseca efectiva (Bonatti, 2020).
+            p.mb-0 Frederick Irving Herzberg, en su Teoría Bifactorial, diferencia entre necesidades higiénicas, vinculadas al entorno laboral, y necesidades motivacionales, relacionadas con la naturaleza misma del trabajo. Según este modelo, la verdadera satisfacción laboral se logra al cumplir con estas últimas, aunque sigue siendo un desafío para las empresas, fomentar una motivación intrínseca efectiva (Bonatti, 2020).
 
         .row.justify-content-center.p-5
           .col-lg-5.col-7.d-none.d-lg-block: img(src='@/assets/curso/t2/24.png', alt='')
@@ -264,19 +264,19 @@
             .custom-image-card.h-100.br-15
                   img.custom-image-card__image.d-none.d-lg-block(src="@/assets/curso/t2/28.png" alt="")
                   .custom-image-card__text.p-4
-                    h4.mb-2.text-center Insumos (inputs)
+                    h4.mb-2.text-center Insumos #[i (inputs)]
                     p.mb-0.text-center Son los recursos iniciales que alimentan el sistema, se transforman a través de un proceso, una serie de actividades organizadas que involucran la interacción con otros subsistemas.
           .col-sm-12.col-lg-4.mb-lg-0.mb-3
             .custom-image-card.h-100.br-15
                   img.custom-image-card__image.d-none.d-lg-block(src="@/assets/curso/t2/29.png" alt="")
                   .custom-image-card__text.p-4
-                    h4.mb-2.text-center Producto (output)
-                    p.mb-0.text-center Es el resultado de esta transformación y representa el bien o servicio final, que cumple con la misión de la organización. Para mantener y mejorar esta dinámica
+                    h4.mb-2.text-center Producto #[i (output)]
+                    p.mb-0.text-center Es el resultado de esta transformación y representa el bien o servicio final, que cumple con la misión de la organización. Para mantener y mejorar esta dinámica.
           .col-sm-12.col-lg-4.mb-lg-0.mb-3
             .custom-image-card.h-100.br-15
                   img.custom-image-card__image.d-none.d-lg-block(src="@/assets/curso/t2/30.png" alt="")
                   .custom-image-card__text.p-4
-                    h4.mb-2.text-center Retroalimentación (feedback)
+                    h4.mb-2.text-center Retroalimentación #[i (feedback)]
                     p.mb-0.text-center Permite evaluar cómo el entorno percibe los productos o servicios generados. Esto facilita ajustar procesos y conceptos para optimizar el desempeño del sistema.
     .bg-full-width.bg-fondo-3.mb-0(data-aos="flip-up")
       .p-4.p-md-5 
@@ -284,7 +284,7 @@
           .col-sm-12.col-lg-8
             p.mb-3 Según la teoría general de sistemas de Ludwig Von Bertalanffy, todo sistema forma parte de un sistema mayor, interactúa continuamente con su entorno y funciona como un sistema abierto.
             .bg-color-3.p-4.mb-4
-              p.mb-0 Bonatti (2020), destaca que los sistemas abiertos dependen de esta interacción y deben considerar tanto los inputs, procesos, outputs, feedback y el entorno, como elementos fundamentales.
+              p.mb-0 Bonatti (2020), destaca que los sistemas abiertos dependen de esta interacción y deben considerar tanto los inputs, procesos, #[i outputs], feedback y el entorno, como elementos fundamentales.
             p.mb-0.fw-bold Según el punto de vista de Bonatti (2020), los sistemas abiertos, condicionantes de las organizaciones, presentan las siguientes características:
           .col-sm-12.col-lg-4.d-none.d-lg-block
             img(src="@/assets/curso/t2/31.svg")
@@ -366,9 +366,9 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src="@/assets/curso/t2/35.png") 
 
-    .bg-full-width.bg-fondo-2.p-5.mb-5(data-aos="flip-up")
+    .bg-full-width.bg-fondo-2.p-5.mb-0(data-aos="flip-up")
       .p-5
-        .row.justify-content-center.mb-5(data-aos="flip-up")
+        .row.justify-content-center.mb-0(data-aos="flip-up")
           .col-sm-12.col-lg-4.d-none.d-lg-block
             img(src="@/assets/curso/t2/37.svg")
           .col-sm-12.col-lg-8
@@ -383,7 +383,37 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.redalyc.org/pdf/140/14039201010.pdf' target='_blank' rel='noopener noreferrer') Manjarrez-Sánchez, G. H. & Gutiérrez-Pulido, H. (2011). Diseño de experimentos aplicados a la mejora de procesos.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.revistaanfibios.org/ojs/index.php/afb/article/view/92/108' target='_blank' rel='noopener noreferrer') Ruiz-Andrade, J. G., Solís-Palafox, C. L. & López-Luna, N. A. (2021). La incidencia de la planificación estratégica en el desempeño del marketing: Una revisión crítica.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.gestiopolis.com/teorias-de-la-administracion/" target="_blank" rel="noopener noreferrer") Gestiopolis. (s.f.). Teorías de la administración.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer") Perplexity.ai
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=NJMP9cokwdY" target="_blank" rel="noopener noreferrer") Iepatru007. (2021). Línea De Tiempo Teorías Administrativas
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

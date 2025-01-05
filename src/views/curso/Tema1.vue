@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'11.Concepto de administración'")
+  BannerInterno(:subTitulo="'1.Concepto de administración'")
   .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
     p.mb-3(data-aos="fade-up") Para comenzar a estudiar el contenido de esta unidad, debemos primero conocer qué es la administración.
     .bg-full-width.bg-color-3.mb-5(data-aos="flip-up")
@@ -34,7 +34,7 @@
         .row.justify-content-center.mb-5
           .col-sm-12.col-lg-8
             AcordionA(tipo="b")
-              div(titulo="Instrumentalidad") La administración es una herramienta que permite a las organizaciones alcanzar sus metas de manera eficiente. Es utilizada como un medio para cumplir con los objetivos, previamente establecidos
+              div(titulo="Instrumentalidad") La administración es una herramienta que permite a las organizaciones alcanzar sus metas de manera eficiente. Es utilizada como un medio para cumplir con los objetivos, previamente establecidos.
               div(titulo="Amplitud de aplicación") Puede ser ejercida en todos los niveles de una organización formal, incluyendo roles como presidentes, gerentes, supervisores y hasta personas en el hogar.
               div(titulo="Interdisciplinariedad") La administración se apoya en principios, procesos, métodos y técnicas de diversas disciplinas que contribuyen a la eficiencia laboral. Entre estas se encuentran las matemáticas, la estadística, el derecho, la economía, la contabilidad, el mercadeo, la sociología, la psicología, la filosofía y la antropología.
               div(titulo="Flexibilidad") Los métodos y principios administrativos pueden ajustarse a las necesidades específicas de cualquier organización o grupo social, lo que los hace aplicables a una amplia variedad de situaciones.
@@ -48,12 +48,46 @@
               img(src='@/assets/curso/t1/4.svg', alt='')
           .col-sm-12.col-lg-8
             p.mb-3 Con la Revolución Industrial, surgió la necesidad de perfeccionar el conocimiento empírico mediante un enfoque científico, dando lugar al pensamiento administrativo, que se ha desarrollado durante casi un siglo.
-            .bg-color-1.p-4.mb-5
+            .bg-color-1.p-4.mb-0
               .row.align-items-start
                 .col-lg-2.d-none.d-lg-block
                   img(src="@/assets/curso/t1/5.svg").mx-auto
                 .col-lg
-                  p.mb-0 Si se desea profundizar más sobre la diversidad cultural y étnica de Colombia y el mundo, puede visitar el siguiente portal web, donde los autores comparten las características principales de estas, según su contexto geográfico. 
+                  p.mb-0 El análisis científico de las empresas ha sido objeto de amplio estudio; esta actividad ha sido continua desde principios del siglo XX. Ahora bien, en la actualidad, el pensamiento administrativo se ha consolidado generando un impacto social de gran importancia que a través de diversas áreas y enfoques, ha posicionado la administración de empresas como un motor clave en el desarrollo de las sociedades.
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.redalyc.org/pdf/4259/425942331004.pdf' target='_blank' rel='noopener noreferrer') Aragón-Correa, J. A., Hurtado-Torres, N., Sharma, S. & García-Morales, V. J. (2008). Environmental strategy and performance in small firms: A resource-based perspective.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://revistas.unilibre.edu.co/index.php/revista_cultural/article/download/10624/10094/31895' target='_blank' rel='noopener noreferrer') Lopera Mesa, J. D. & Medina Quintero, C. F. (2022). Influencia de la cultura en la transformación social: Una mirada desde la educación.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0121-68052010000200005" target="_blank" rel="noopener noreferrer") López, P. A. & Mariño Arévalo, A. (2010). Hacia una evolución en el campo del conocimiento de la disciplina administrativa.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer") Chatgtp
+
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Kl1dh8dtcBc" target="_blank" rel="noopener noreferrer") Felipe Delgado. (2020). Historia de la Administración de Empresas
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 
 
 

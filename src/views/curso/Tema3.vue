@@ -124,13 +124,49 @@
 
 
 
-    .bg-full-width.bg-color-4.mb-0
+    .bg-full-width.bg-color-4.mb-5
       .px-5.py-4
         .row.align-items-center(data-aos="flip-up")
           .col-lg-1.d-none.d-lg-block
             img(src="@/assets/curso/t3/14.svg").mx-auto
           .col-lg
             p.mb-0 Teniendo en cuenta lo anterior, se puede concluir que la ausencia de una administración adecuada, lleva a la desorganización, la falta de eficiencia y la pérdida de oportunidades estratégicas, lo que puede resultar en un declive general del rendimiento y sostenibilidad de la organización, en el largo plazo.
+    
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/tecnologicadeloriente/titulos/51722/?as_all=Introducci%C3%B3n__a__la__administraci%C3%B3n:__paradigmas__en__las_organizaciones&as_all_op=unaccent__icontains&prev=as' target='_blank' rel='noopener noreferrer') Zalazar, R. J. (2012). Introducción a la administración: paradigmas en las organizaciones.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/tecnologicadeloriente/titulos/69115/?as_all=Fundamentos__de__administraci%C3%B3n&as_all_op=unaccent__icontains&prev=as' target='_blank' rel='noopener noreferrer') Ramírez Cardona, C. (2010). Fundamentos de administración (3 ed.).
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.utp.edu.pe/blog/negocios/importancia-de-la-administracion" target="_blank" rel="noopener noreferrer") Universidad Tecnológica del Perú. (s.f.). Importancia de la administración.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.optimove.com/" target="_blank" rel="noopener noreferrer") Optimove
+
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Op5zcComvEE" target="_blank" rel="noopener noreferrer") ASMAZEmpresario. (2012). La importancia de una buena administración
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
+
 
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
