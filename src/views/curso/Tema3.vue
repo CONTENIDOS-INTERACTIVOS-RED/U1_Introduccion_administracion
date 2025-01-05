@@ -144,177 +144,157 @@ export default {
   name: 'Tema3',
   data: () => ({
     cuestionario: {
-      tema: 'Inclusión y Diversidad',
+      tema: 'Importancia de la administración en las organizaciones',
       titulo: 'Ponte a prueba',
       introduccion:
-        'Demuestra lo que aprendiste sobre inclusión y diversidad respondiendo las siguientes preguntas.',
+        'Demuestra lo que aprendiste sobre la administración y sus características.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            'En una escuela rural, se detectó que un estudiante con discapacidad auditiva no logra acceder a las lecciones debido a la falta de intérpretes. ¿Qué principio de inclusión se debe aplicar para resolver esta situación?',
+            '¿Cuál de las siguientes características de la administración permite su aplicación en cualquier organización social?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Equidad',
+              texto: 'Especificidad',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Accesibilidad',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Autonomía',
+              texto: 'Interdisciplinariedad',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Universalidad',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Justicia',
+              texto: 'Flexibilidad',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La accesibilidad es fundamental para garantizar que todos los estudiantes puedan participar efectivamente en el proceso educativo.',
+            '¡Muy bien! La universalidad asegura que la administración sea aplicable en diversos ámbitos, desde el estado hasta las organizaciones educativas y religiosas lo que la convierte en una disciplina integral y versátil.',
           mensaje_incorrecto:
-            'No es correcto. Recuerda que la accesibilidad es el principio que garantiza el acceso a la educación para todos.',
+            'Lo sentimos, esa no es la característica correcta. Intenta nuevamente.',
         },
         {
           id: 2,
           texto:
-            'Una empresa adapta los espacios y horarios laborales para permitir que una empleada en silla de ruedas se integre sin dificultades. ¿Qué tipo de inclusión se está aplicando en este caso?',
+            '¿Qué característica de la administración se refiere a su capacidad para adaptarse a las necesidades de diferentes organizaciones?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Inclusión laboral',
-              esCorrecta: true,
+              texto: 'Unidad jerárquica',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Inclusión social',
+              texto: 'Amplitud de aplicación',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Inclusión cultural',
+              texto: 'Unidad temporal',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Inclusión escolar',
-              esCorrecta: false,
+              texto: 'Flexibilidad',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La inclusión laboral implica adaptar el entorno de trabajo para garantizar la participación plena de todos los empleados.',
+            '¡Correcto! La flexibilidad, además asegura que la administración no sea un enfoque rígido, sino una herramienta dinámica que puede evolucionar con el entorno y las circunstancias cambiantes.',
           mensaje_incorrecto:
-            'No es correcto. La adaptación del espacio de trabajo corresponde a la inclusión laboral.',
+            'Lo sentimos, esa no es la característica correcta. Intenta nuevamente.',
         },
         {
           id: 3,
           texto:
-            'En un aula diversa, se incluye un programa de aprendizaje bilingüe para estudiantes indígenas que están aprendiendo español. ¿A qué tipo de diversidad responde este caso?',
+            'La especificidad de la administración implica que esta ciencia es igual a otras disciplinas como la psicología organizacional o la contabilidad.',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Diversidad cultural',
+              texto: 'Falso',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Diversidad de género',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Diversidad étnica',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Diversidad lingüística',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Este caso refleja el respeto y la adaptación a la diversidad cultural en el entorno educativo.',
+            '¡Correcto! La especificidad distingue a la administración por su carácter único, lo que le permite ser independiente y diferente, aun cuando acompaña a otras disciplinas.',
           mensaje_incorrecto:
-            'No es correcto. El programa bilingüe responde principalmente a la diversidad cultural de los estudiantes.',
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
         },
         {
           id: 4,
           texto:
-            'En una institución educativa, un niño diagnosticado con hiperactividad tiene dificultades para concentrarse durante las clases tradicionales. El docente decide implementar actividades interactivas y pausas activas. ¿Qué principio de la inclusión está aplicando el docente?',
+            'La característica unidad temporal asegura que las etapas administrativas funcionan simultáneamente y no de manera aislada en las organizaciones.',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Autonomía',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Participación',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'Equidad',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Universalización',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El docente está promoviendo la participación activa del estudiante mediante estrategias adaptadas.',
+            '¡Correcto! La unidad temporal implica que las etapas administrativas funcionan de manera integrada y simultánea.',
           mensaje_incorrecto:
-            'No es correcto. Las actividades interactivas buscan fomentar la participación del estudiante.',
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
         },
         {
           id: 5,
           texto:
-            'En una empresa, el departamento de recursos humanos diseña procesos de selección que consideran a personas con discapacidad y ajusta entrevistas según sus necesidades. ¿Qué tipo de inclusión refleja este escenario?',
+            'Teniendo en cuenta que desde la Revolución Industrial, el pensamiento administrativo ha evolucionado desde enfoques clásicos hacia paradigmas modernos, impulsados por el capital intelectual y la tecnología ¿Cuál ha sido el enfoque inicial que sirvió como base para la evolución del pensamiento administrativo?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Inclusión laboral',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Inclusión escolar',
+              texto: 'El enfoque crítico',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'El enfoque clásico',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Inclusión social',
+              texto: 'El enfoque conductual',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Inclusión comunitaria',
+              texto: 'El enfoque tecnológico',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La adaptación de los procesos de selección es un ejemplo claro de inclusión laboral.',
+            '¡Correcto! El enfoque clásico fue la base fundamental que dio inicio a la evolución del pensamiento administrativo.',
           mensaje_incorrecto:
-            'No es correcto. Las adaptaciones en procesos de selección corresponden a la inclusión laboral.',
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Felicitaciones! Has demostrado un excelente entendimiento de los principios de inclusión y diversidad.',
+        '¡Felicitaciones! Has demostrado un buen entendimiento de las características de la administración.',
       mensaje_final_reprobado:
-        'Te invitamos a revisar nuevamente el material sobre inclusión y diversidad para reforzar tus conocimientos.',
+        'Te invitamos a revisar nuevamente el material sobre las características de la administración antes de volver a intentarlo.',
     },
   }),
   mounted() {
